@@ -3,7 +3,7 @@ title = "Kead.Eu"
 languageCode = "id"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
-path: ../themes/mainroad
+path: ["/themes/mainroad"]
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
