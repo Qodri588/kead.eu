@@ -3,7 +3,7 @@
 publish = "public"
 
 command = "hugo --gc --minify"
-
+command = "find . -name _gen -exec rm -rf {} + ; hugo --gc --minify"
 [context.production.environment]
 
 HUGO_VERSION = "0.60.1"
